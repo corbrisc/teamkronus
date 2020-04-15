@@ -1,0 +1,33 @@
+.banner{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-image: url(daycare.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_text{
+    padding-top:5%;
+    font-weight: bold;
+}
+
+.banner{
+    padding-top:10%;
+    padding-bottom:0%;
+}
+
+.divider{
+    display: block;
+    border-style: solid;
+    border-width: 10px;
+    border-top:0;
+}
+
+#banner_text{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    background-color: rgba(23,23,23,0.89);
+    color:white;
+    text-align: center;
+}
