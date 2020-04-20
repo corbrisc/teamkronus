@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'panton_blackregular';
+    src: url('../fonts/panton-black-webfont.woff2') format('woff2'),
+    url('../fonts/panton-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-webfont.woff2') format('woff2'),
+    url('../fonts/bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .banner{
     padding-top: 7%;
     padding-bottom: 7%;
@@ -8,7 +25,10 @@
 
 .banner_text{
     padding-top:5%;
+    padding-right: 5%;
+    padding-left: 5%;
     font-weight: bold;
+    font-family: 'panton_blackregular', Arial sans-serif;
 }
 
 .banner{
@@ -23,11 +43,48 @@
     border-top:0;
 }
 
-#banner_text{
+#top_banner{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 0%;
+    padding-left: 0;
+    padding-right: 0;
     background-color: rgba(23,23,23,0.89);
     color:white;
     text-align: center;
+    min-height: 45%;
+}
+
+#summary_text{
+    color:lightskyblue;
+    text-align: center;
+    padding-left: 5%;
+    padding-right:5%;
+    font-family: 'panton_blackregular', Arial sans-serif;
+
+}
+
+.carousel{
+    min-height: 30%;
+    text-align-all: center;
+    vertical-align: center;
+}
+
+#pt{
+    font-size: 24px;
+    font-family: 'bebas_neueregular', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-stretch: ultra-condensed;
+}
+
+.author{
+    color: #f8a5a5;
+}
+
+.carousel-control-next:hover{
+    background-color: rgba(255, 255, 255, 0.49);
+}
+
+.carousel-control-prev:hover{
+    background-color: rgba(255, 255, 255, 0.49);
 }

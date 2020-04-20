@@ -4,22 +4,47 @@
         <link rel="stylesheet" type="text/css" href="home_style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="home_script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class = "banner">
-            <div class="jumbotron" id = "banner_text">
-                <div class="container" >
-                    <span class="badge badge-primary" style="font-size: 24px;">-PAST TESTIMONIALS-</span>
 
-                    <p class="banner_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio lacus, consequat quis posuere eu, pretium in diam. Sed at ipsum nec dolor bibendum rutrum at vitae mi. Morbi volutpat diam risus, porta mattis nulla aliquam facilisis. Donec sit amet sem ac neque viverra imperdiet. Aenean tempus mauris lacus, vel tincidunt tortor porttitor eget. Fusce eleifend elit lectus, nec dictum nunc mattis sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit est ut justo tincidunt, vel feugiat lorem ornare.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio lacus, consequat quis posuere eu, pretium in diam. Sed at ipsum nec dolor bibendum rutrum at vitae mi. Morbi volutpat diam risus, porta mattis nulla aliquam facilisis. Donec sit amet sem ac neque viverra imperdiet. Aenean tempus mauris lacus, vel tincidunt tortor porttitor eget. Fusce eleifend elit lectus, nec dictum nunc mattis sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit est ut justo tincidunt, vel feugiat lorem ornare.</p>
+        <div class = "banner" style="padding-bottom: 30px;">
+              <div class="jumbotron" id = "top_banner">
+                <div class="container" style="padding-left: 0;padding-right: 0;">
+                    <span class="badge badge-primary" id="pt">-PAST TESTIMONIALS-</span>
+
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="banner_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio lacus, consequat quis posuere eu, pretium in diam. Sed at ipsum nec dolor bibendum rutrum at vitae mi. Morbi volutpat diam risus, porta mattis nulla aliquam facilisis. Donec sit amet sem ac neque viverra imperdiet. Aenean tempus mauris lacus, vel tincidunt tortor porttitor eget. Fusce eleifend elit lectus, nec dictum nunc mattis sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit est ut justo tincidunt, vel feugiat lorem ornare.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio lacus, consequat quis posuere eu, pretium in diam. Sed at ipsum nec dolor bibendum rutrum at vitae mi. Morbi volutpat diam risus, porta mattis nulla aliquam facilisis. Donec sit amet sem ac neque viverra imperdiet. Aenean tempus mauris lacus, vel tincidunt tortor porttitor eget. Fusce eleifend elit lectus, nec dictum nunc mattis sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit est ut justo tincidunt, vel feugiat lorem ornare. -<span class = 'author'> Trevor Cunningham</span></p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class='banner_text'>Helloww</p>
+                            </div>
+                            <div class="carousel-item" style="vert-align: middle;">
+                                <p style="vertical-align: middle">Helloww</p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="width: 50px;max-height: none;">
+                            <span class="sr-only control">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="width: 50px;">
+                            <span class="sr-only control">Next</span>
+                        </a>
+                    </div>
+
+
                 </div>
             </div>
         </div>
+
     <hr class = "divider" style = "color:#d96464">
     <hr class = "divider" style = "color:#71e571">
     <div>
         <h1 style="font-weight:bold; color:darkblue; text-align: center;">WHO ARE WE?</h1>
-        <p style="color:lightskyblue; text-align: center;padding-left: 5%;padding-right:5%">Suspendisse id pretium ex, vitae laoreet dui. Donec ut sem ultricies urna imperdiet bibendum malesuada id orci. Nam porta at quam sit amet egestas. Quisque tincidunt venenatis nulla in eleifend. Nunc nec tristique eros, elementum suscipit dolor. Mauris a tortor facilisis, faucibus odio ac, imperdiet ante. Nulla eget turpis mi. Sed lorem orci, semper id placerat at, malesuada ac nisi. Mauris fringilla accumsan nisl, eget aliquet leo faucibus quis. Vivamus turpis sem, aliquet sed ultrices non, condimentum ac quam. Morbi consequat enim non quam dignissim, at scelerisque urna vehicula.</p>
+        <p id="summary_text">Suspendisse id pretium ex, vitae laoreet dui. Donec ut sem ultricies urna imperdiet bibendum malesuada id orci. Nam porta at quam sit amet egestas. Quisque tincidunt venenatis nulla in eleifend. Nunc nec tristique eros, elementum suscipit dolor. Mauris a tortor facilisis, faucibus odio ac, imperdiet ante. Nulla eget turpis mi. Sed lorem orci, semper id placerat at, malesuada ac nisi. Mauris fringilla accumsan nisl, eget aliquet leo faucibus quis. Vivamus turpis sem, aliquet sed ultrices non, condimentum ac quam. Morbi consequat enim non quam dignissim, at scelerisque urna vehicula.</p>
     </div>
     </body>
 </html>
