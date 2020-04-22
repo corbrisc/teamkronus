@@ -15,9 +15,46 @@
     font-style: normal;
 }
 
-.content {
-    /* background-color: ;*/
+body {
+    color: #271e39;
+    background-color: #f3f1e5;
+    margin: 0px;
+    font-family: 'panton_blackregular';
 }
+
+h3 {
+    color: #bd194c;
+    text-align: center;
+}
+
+ul {
+    font-family: 'bebas_neueregular';
+    font-size: 14pt;
+    color: #bd194c;
+}
+
+ul li:nth-child(1){
+    list-style-image:url('location_small.png');
+}
+ul li:nth-child(2){
+    list-style-image:url('phone_red_small.png');
+}
+ul li:nth-child(3){
+    list-style-image:url('envelope_small.png');
+}
+ul li:nth-child(4){
+    list-style-image:url('facebook_small.png')
+}
+
+.content {
+    padding: 30px 0;
+}
+
+.words {
+    padding: 50px 0;
+}
+
+/* NAV BAR AND FOOTER */
 #nav {
     position: relative;
     display: block;
@@ -40,10 +77,11 @@
 .nav_item{
     float:left;
     width: 20%;
-    height: 100%;
-    top: 50%;
-    font-family: 'Bebas Neue';
-    font-size: 3vw;
+    height: 50%;
+    top: 0%;
+    font-family: 'panton_blackregular';
+    font-size: 23pt;
+    padding: 10px 0;
     color: darkblue;
     background: white;
     border:1pt hidden;
@@ -81,8 +119,8 @@
     margin-left:5%;
     width: 95%;
     height: 100%;
-    font-family: 'Bebas Neue';
-    font-size: 2vw;
+    font-family: 'panton_blackregular';
+    font-size: 19pt;
     color: darkblue;
     background: white;
     border:1pt hidden;
@@ -90,7 +128,9 @@
 
 #footer_item1{
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 35%;
     height: 100%;
     float: left;
@@ -98,7 +138,9 @@
 
 #footer_item2{
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     height: 100%;
     float: left;
@@ -106,7 +148,9 @@
 
 #footer_item3{
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 2%;
     width: 30%;
     height: 100%;
