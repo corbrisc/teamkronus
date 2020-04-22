@@ -2,6 +2,7 @@
     <head>
         <title>Home</title>
         <link rel="stylesheet" type="text/css" href="home_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="home_script.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -12,12 +13,30 @@
 
 
         <!------------------------ HEADER ------------------------->
-
+        <div id ="nav">
+            <a href ="home.html">
+                <img src="littlesmarties.png" id="pic">
+            </a>
+            <div id="nav_items">
+                <a href="../home/home.html">
+                    <span class="nav_item">HOME</span>
+                </a>
+                <a href="../about/about.html">
+                    <span class="nav_item">ABOUT ME</span>
+                </a>
+                <a href="../calendar/calendar.html">
+                    <span class="nav_item">CALENDAR</span>
+                </a>
+                <a href="../contacts/contacts.html">
+                    <span class="nav_item">CONTACTS</span>
+                </a>
+            </div>
+        </div>
 
 
         <div class = "banner" style="padding-bottom: 30px;">
               <div class="jumbotron" id = "top_banner">
-                <div class="container" style="padding-left: 0;padding-right: 0;">
+                <div class="container" style="padding-left: 0; padding-right: 0;">
                     <span class="badge badge-primary" id="pt">-PAST TESTIMONIALS-</span>
 
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="vertical-align: middle;">
@@ -69,12 +88,30 @@
             </div>
         </div>
 
-        <p id="summary_text" style="text-align: center;padding-top:5%;font-size: 36px;">We are Little Smarties Academy!</p>
+    <p id="summary_text" style="text-align: center;padding-top:5%;font-size: 36px;">We are Little Smarties Academy!</p>
 
         <!------------------------ FOOTER ------------------------->
+        <hr class = "divider" style = "color:#d96464">
+        <hr class = "divider" style = "color:#71e571">
+        <div id ="footer">
+            <div id="footer_items">
+                <div id="footer_item1">
+                    <img src="phone.png" class="footer_pic">
+                    916 Shadeland Ave Suite E Indianapolis, Indiana 46259
+                </div>
+                <div class="vertical_line"></div>
+                <div id="footer_item2">
+                    <img src="phone.png" class="footer_pic">
+                    (317) 566-4054
+                </div>
+                <div class="vertical_line"></div>
+                <div id="footer_item3">
+                    <img src="phone.png" class="footer_pic">
+                    littleSmarties@gmail.com
+                </div>
+            </div>
+        </div>
 
-
-
-    </div>
+        </div>
     </body>
 </html>
